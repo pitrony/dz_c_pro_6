@@ -33,7 +33,6 @@ int main (void) {
     Tree *root = 0;
     printf("%d\n", sum(root));
     root = addNode (0, ' ', 10);
-    printf("%d\n", sum (root));
     addNode (root,'L',5);
     addNode (root,'R',15);
     addNode (root->left,'L',3);
